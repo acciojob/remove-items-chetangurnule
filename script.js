@@ -5,7 +5,7 @@ button.addEventListener("click", ()=>{
     let option = document.querySelectorAll("option");
     option.forEach((element)=>{
         if(selectList.value == element.textContent){
-            option.remove();
+            element.remove();
         }
     })
 });
